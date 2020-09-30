@@ -1,0 +1,22 @@
+listen = ":9505"
+
+[dbservers]
+    [dbservers.qipaidb]
+        host = "81.68.107.248"
+        port = 5432
+        dbname = "qipaidb"
+        user = "qipai"
+        password = "qipai#xq5"
+
+    [dbservers.statdb]
+        host = "81.68.107.248"
+        port = 5432
+        dbname = "statdb"
+        user = "qipai"
+        password = "qipai#xq5"
+
+
+[redisservers]
+    [redisservers.vipcache]
+        addr = "81.68.107.248:6378"
+        db = 0
